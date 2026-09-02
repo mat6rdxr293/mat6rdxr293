@@ -14,6 +14,41 @@
 
 ---
 
+## Hackathons & awards
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🥉 AIS Hackathon — 3rd place
+
+Built and shipped a working project under hackathon constraints and finished **3rd**.
+
+`3rd place` `hackathon` `product build`
+
+</td>
+<td width="50%" valign="top">
+
+### 🌍 InfoCheck · Goethe-Institut — Tashkent
+
+Participant in the **international InfoCheck hackathon by Goethe-Institut in Tashkent**.
+
+The project became **MatrixEducation** — a school platform with role-based access, analytics, scheduling, BilimClass integration and an AI fallback chain.
+
+<a href="https://github.com/mat6rdxr293/MatrixHackathon-goethe"><b>hackathon project →</b></a>
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AIS_Hackathon-3rd_place-d946ef?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/InfoCheck-Goethe--Institut-7c3aed?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tashkent-international_hackathon-6366f1?style=for-the-badge" />
+</p>
+
+---
+
 ## Current work
 
 <table>
@@ -137,34 +172,28 @@ An older OS-related repository from before MatrixOS. Keeping it public as part o
 
 ---
 
-## Milestones
+## More milestones
 
 <table>
 <tr>
-<td align="center" width="33%">
-
-### 🥉 3rd
-**AIS Hackathon**
-
-</td>
-<td align="center" width="33%">
-
-### 🌍 Tashkent
-**InfoCheck · Goethe-Institut**  
-international hackathon
-
-</td>
-<td align="center" width="33%">
+<td align="center" width="50%">
 
 ### ~135M
 **parameters**  
 current LLM experiments
 
 </td>
+<td align="center" width="50%">
+
+### self-hosted
+**Linux infrastructure**  
+servers · networking · services
+
+</td>
 </tr>
 </table>
 
-Other things I spend time on: self-hosted Linux infrastructure, networking, cryptography, GPU internals and electronics.
+Other things I spend time on: networking, cryptography, GPU internals and electronics.
 
 ---
 
