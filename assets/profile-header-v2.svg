@@ -1,34 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
-  <title id="title">Matvey — systems, backend and graphics</title>
-  <desc id="desc">Clean GitHub profile header with a macOS-style terminal</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">mat6rdxr293 — systems, graphics, backend</title>
+  <desc id="desc">Purple developer profile header with a terminal panel</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08050f"/>
+      <stop offset="0.42" stop-color="#17102f"/>
+      <stop offset="0.76" stop-color="#35105e"/>
+      <stop offset="1" stop-color="#130823"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(676 182) rotate(90) scale(168 340)">
+      <stop stop-color="#d946ef" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#d946ef" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(485 20) rotate(90) scale(255 430)">
+      <stop stop-color="#6366f1" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset=".45" stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="38"/></filter>
+  </defs>
 
-  <rect width="1000" height="260" fill="#0d1117"/>
-  <line x1="36" y1="239" x2="964" y2="239" stroke="#21262d" stroke-width="1"/>
+  <rect width="1200" height="330" rx="26" fill="url(#bg)"/>
+  <ellipse cx="675" cy="184" rx="300" ry="144" fill="url(#g1)" filter="url(#blur)"/>
+  <ellipse cx="485" cy="18" rx="390" ry="190" fill="url(#g2)" filter="url(#blur)"/>
+  <path d="M0 0h302c-37 29-64 66-67 102-5 67 67 92 102 145 23 34 37 61 72 83H0V0Z" fill="#6d28d9" opacity=".13"/>
+  <path d="M1200 0v330H918c48-38 76-79 97-122 34-69 72-118 185-172V0Z" fill="#a21caf" opacity=".11"/>
 
-  <text x="48" y="47" fill="#6e7681" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12">mat6rdxr293 / github</text>
-  <text x="46" y="109" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="48" font-weight="650">Matvey</text>
-  <text x="48" y="144" fill="#b1bac4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="18">systems · backend · graphics</text>
-  <text x="48" y="190" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">C / C++     Python     TypeScript</text>
-  <text x="48" y="215" fill="#6e7681" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">Kazakhstan</text>
+  <text x="72" y="70" fill="#a78bfa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">github.com/mat6rdxr293</text>
+  <text x="70" y="137" fill="#f5f3ff" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="52" font-weight="760">mat6rdxr293</text>
+  <text x="72" y="174" fill="#ddd6fe" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19">systems · graphics · backend · embedded · ML</text>
+  <text x="72" y="225" fill="#ede9fe" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15">&gt; building MatrixOS</text>
+  <text x="72" y="253" fill="#c4b5fd" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15">&gt; GPU bring-up · E2EE · infra · hardware</text>
+  <text x="72" y="281" fill="#f0abfc" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15">&gt; Kazakhstan</text>
 
-  <rect x="525" y="28" width="427" height="190" rx="10" fill="#0a0d12" stroke="#30363d" stroke-width="1"/>
-  <path d="M535 28h407a10 10 0 0 1 10 10v27H525V38a10 10 0 0 1 10-10Z" fill="#161b22"/>
-  <line x1="525" y1="65" x2="952" y2="65" stroke="#30363d" stroke-width="1"/>
+  <g transform="translate(678 48)">
+    <rect width="447" height="223" rx="18" fill="#09070f" fill-opacity=".82" stroke="#8b5cf6" stroke-opacity=".28"/>
+    <path d="M18 0h411a18 18 0 0 1 18 18v28H0V18A18 18 0 0 1 18 0Z" fill="#161020"/>
+    <line y1="46" x2="447" y2="46" stroke="#7c3aed" stroke-opacity=".2"/>
+    <circle cx="22" cy="23" r="5" fill="#ff5f57"/>
+    <circle cx="40" cy="23" r="5" fill="#febc2e"/>
+    <circle cx="58" cy="23" r="5" fill="#28c840"/>
+    <text x="224" y="28" text-anchor="middle" fill="#8b7fa0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">~/dev</text>
 
-  <circle cx="546" cy="47" r="5.5" fill="#ff5f57"/>
-  <circle cx="565" cy="47" r="5.5" fill="#febc2e"/>
-  <circle cx="584" cy="47" r="5.5" fill="#28c840"/>
-  <text x="739" y="51" text-anchor="middle" fill="#6e7681" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11">matvey — zsh</text>
+    <text x="22" y="78" fill="#a78bfa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">$ ls projects</text>
+    <text x="22" y="105" fill="#f5f3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">MatrixOS/   MatrixMessenger/   ML/</text>
 
-  <text x="548" y="96" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">matvey@dev ~ %</text>
-  <text x="662" y="96" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">ls projects</text>
-  <text x="548" y="121" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">MatrixOS/</text>
-  <text x="651" y="121" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">MatrixMessenger/</text>
-  <text x="822" y="121" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">ml/</text>
+    <text x="22" y="140" fill="#a78bfa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">$ cat stack</text>
+    <text x="22" y="167" fill="#f5f3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">C · C++ · Python · TypeScript</text>
 
-  <text x="548" y="157" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">matvey@dev ~ %</text>
-  <text x="662" y="157" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">cat focus</text>
-  <text x="548" y="183" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">graphics stack · e2ee · backend · small llms</text>
+    <text x="22" y="202" fill="#a78bfa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">$ status</text>
+    <text x="91" y="202" fill="#f0abfc" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">building</text>
+  </g>
 
-  <text x="548" y="205" fill="#6e7681" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12">main project: MatrixOS</text>
+  <rect x="70" y="313" width="1060" height="1" fill="url(#line)"/>
 </svg>
