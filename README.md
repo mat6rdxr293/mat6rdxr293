@@ -1,60 +1,46 @@
-<p align="center">
-  <img src="./assets/profile-hero.svg" width="100%" alt="Matvey — systems, graphics, backend, embedded" />
-</p>
+# Matvey
 
-<br/>
+Systems/backend developer from Kazakhstan. I mostly work with C/C++, Python and TypeScript.
 
-## Current work
+Right now I'm working on an operating system, an encrypted messenger, small ML experiments and embedded projects.
 
-<p align="center">
-  <img src="./assets/card-matrixos.svg" width="49%" alt="MatrixOS" />
-  <img src="./assets/card-messenger.svg" width="49%" alt="MatrixMessenger" />
-</p>
+## Projects
 
-<p align="center">
-  <a href="https://github.com/mat6rdxr293/MatrixHackathon-goethe">
-    <img src="./assets/card-matrixedu.svg" width="49%" alt="MatrixEducation" />
-  </a>
-  <a href="https://github.com/mat6rdxr293/AqbobekHachathonMatrixAI">
-    <img src="./assets/card-aqbobek.svg" width="49%" alt="Aqbobek Lyceum Portal" />
-  </a>
-</p>
+### MatrixOS
 
-<br/>
+Operating system from scratch. Current work is mostly around the graphics stack: NVIDIA Ampere bring-up, real hardware support, USB/HID and the groundwork for OpenGL/Vulkan.
 
-<p align="center">
-  <img src="./assets/stack.svg" width="100%" alt="Technology stack" />
-</p>
+Private while it is still changing heavily.
 
-<br/>
+### MatrixMessenger
 
-## About
+Messenger with my own E2EE implementation based on X25519 and Double Ratchet. Backend is built with FastAPI, SQLAlchemy and Alembic.
 
-I mostly work on projects where the interesting part is under the surface: an OS graphics path, an encryption protocol, backend infrastructure, embedded hardware, or a small model trained on hardware that was not really meant for it.
+Private for now.
 
-Right now most of my time goes into **MatrixOS** — getting the graphics stack further on real hardware, including NVIDIA Ampere bring-up and the path toward OpenGL/Vulkan support.
+### [MatrixEducation Portal](https://github.com/mat6rdxr293/MatrixHackathon-goethe)
 
-I also build regular product stuff when it makes sense. The two public hackathon projects above are examples of that: full-stack school platforms with analytics, role-based interfaces and AI features.
+Hackathon project for a school platform: React/TypeScript frontend, Node.js/Express backend, role-based access, analytics, scheduling, BilimClass integration and a local LLM fallback.
 
-## Things worth mentioning
+### [Aqbobek Lyceum Portal](https://github.com/mat6rdxr293/AqbobekHachathonMatrixAI)
 
-- 🥉 3rd place at **AIS Hackathon**
-- 🌍 Participant in the **InfoCheck international hackathon by Goethe-Institut, Tashkent**
-- 🔐 Implemented an **E2EE protocol** for my messenger project
-- 🖥️ Building an **operating system from scratch**
-- 🤖 Training compact transformer models on consumer hardware
-- 🔧 Comfortable with both software and electronics
+Another school-platform prototype with role-based dashboards, academic analytics, scheduling, AI features and kiosk mode.
 
-<br/>
+## Stack
 
-<p align="center">
-  <a href="https://github.com/mat6rdxr293?tab=repositories"><b>repositories</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/mat6rdxr293/MatrixHackathon-goethe"><b>MatrixEducation</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/mat6rdxr293/AqbobekHachathonMatrixAI"><b>Aqbobek Portal</b></a>
-</p>
+**Languages:** C, C++, Python, TypeScript, JavaScript, Java  
+**Backend:** FastAPI, Node.js, PostgreSQL, Redis  
+**Frontend:** React, Vite  
+**Systems:** Linux, CMake, Git, Docker, OpenGL, Vulkan  
+**ML:** PyTorch  
+**Hardware:** ESP32, electronics, soldering
 
-<p align="center">
-  <sub>No remote README generators. The visuals above live in this repository.</sub>
-</p>
+## Background
+
+- 3rd place at AIS Hackathon
+- Participant in the InfoCheck international hackathon by Goethe-Institut in Tashkent
+- Implemented an E2EE protocol for MatrixMessenger
+- Training compact transformer models on consumer hardware; current experiments are around 135M parameters
+- Run my own Linux servers and self-hosted infrastructure
+
+[All public repositories](https://github.com/mat6rdxr293?tab=repositories)
