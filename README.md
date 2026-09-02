@@ -1,91 +1,184 @@
 <p align="center">
-  <img src="./assets/profile-header-v2.svg" width="100%" alt="Matvey — systems, backend and graphics" />
+  <img src="./assets/profile-header-v2.svg" width="100%" alt="mat6rdxr293 — systems, graphics and backend" />
 </p>
 
-Backend + low-level developer. Most of my current time goes into **MatrixOS**; the rest is split between MatrixMessenger, self-hosted infrastructure, embedded experiments and small language models.
+<p align="center">
+  <a href="https://github.com/mat6rdxr293?tab=repositories"><img src="https://img.shields.io/badge/projects-6d28d9?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/building-MatrixOS-a21caf?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/location-Kazakhstan-7c3aed?style=for-the-badge" />
+</p>
 
-## Projects
+<p align="center">
+  I mostly work below the UI layer: operating systems, graphics, backend infrastructure, cryptography, embedded hardware and small ML experiments.
+</p>
+
+---
+
+## Current work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 01 — MatrixOS
+### `01` MatrixOS
 
-Operating system from scratch. Current work is mostly graphics: NVIDIA Ampere bring-up, real hardware support, USB/HID and the groundwork for OpenGL/Vulkan.
+An operating system I'm building from scratch. The current bottleneck is graphics and hardware support, so most of the work is around GPU bring-up rather than polishing a desktop shell.
 
-`C` `C++` `OpenGL` `Vulkan` `USB/HID`
+`C` `C++` `NVIDIA Ampere` `OpenGL` `Vulkan` `USB/HID`
 
-<sub>private · active</sub>
+**now:** graphics stack + real hardware  
+**repo:** private while the low-level parts are moving fast
 
 </td>
 <td width="50%" valign="top">
 
-### 02 — MatrixMessenger
+### `02` MatrixMessenger
 
-Messenger with an E2EE implementation based on X25519 and Double Ratchet. Backend is built around FastAPI, SQLAlchemy and Alembic.
+Messenger with my own E2EE implementation. The interesting part is the protocol: key exchange, ratcheting and keeping the backend out of the plaintext path.
 
-`Python` `FastAPI` `X25519` `Double Ratchet`
+`Python` `FastAPI` `X25519` `Double Ratchet` `SQLAlchemy`
 
-<sub>private</sub>
+**now:** protocol/backend work  
+**repo:** private
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 03 — [MatrixEducation](https://github.com/mat6rdxr293/MatrixHackathon-goethe)
+### `03` Small LLMs
 
-Hackathon school platform with role-based access, analytics, scheduling, BilimClass integration and a local-LLM fallback.
+I train compact transformer models on consumer hardware to understand the full pipeline instead of only calling an API.
 
-`React` `TypeScript` `Node.js` `Express`
+`PyTorch` `GQA` `RoPE` `QK-Norm` `BF16` `tokenizers`
+
+**current scale:** ~135M parameters
 
 </td>
 <td width="50%" valign="top">
 
-### 04 — [Aqbobek Lyceum Portal](https://github.com/mat6rdxr293/AqbobekHachathonMatrixAI)
+### `04` Embedded / hardware
 
-School-platform prototype with dashboards, academic analytics, scheduling, AI features and kiosk mode.
+ESP32 projects, control electronics, Bluetooth, sensors, PCB experiments and soldering. I like projects where software eventually has to interact with something physical.
 
-`React` `TypeScript` `Node.js` `Express`
+`ESP32` `Bluetooth` `electronics` `prototyping`
 
 </td>
 </tr>
 </table>
 
-## Languages
+---
 
-<p>
-  <img src="https://img.shields.io/badge/C-555555?style=flat&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/C++-555555?style=flat&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Python-555555?style=flat&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-555555?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-555555?style=flat&logo=javascript&logoColor=white" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Java-555555?style=flat&logo=openjdk&logoColor=white" alt="Java" />
+## Public projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [MatrixEducation](https://github.com/mat6rdxr293/MatrixHackathon-goethe)
+
+School platform built for a hackathon: role-based accounts, analytics, scheduling, achievements, notifications, BilimClass integration and an AI fallback chain.
+
+`React` `TypeScript` `Node.js` `Express`
+
+<a href="https://github.com/mat6rdxr293/MatrixHackathon-goethe"><b>repository →</b></a>
+
+</td>
+<td width="50%" valign="top">
+
+### [Aqbobek Lyceum Portal](https://github.com/mat6rdxr293/AqbobekHachathonMatrixAI)
+
+Another school-platform prototype with dashboards, academic analytics, smart scheduling, AI features and kiosk mode.
+
+`React` `TypeScript` `Node.js` `Express`
+
+<a href="https://github.com/mat6rdxr293/AqbobekHachathonMatrixAI"><b>repository →</b></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [hackathon-offline](https://github.com/mat6rdxr293/hackathon-offline)
+
+One of my public hackathon builds. I use hackathons mostly as an excuse to ship something complete under a hard deadline.
+
+<a href="https://github.com/mat6rdxr293/hackathon-offline"><b>repository →</b></a>
+
+</td>
+<td width="50%" valign="top">
+
+### [sniperos](https://github.com/mat6rdxr293/sniperos)
+
+An older OS-related repository from before MatrixOS. Keeping it public as part of the path that got me deeper into low-level development.
+
+<a href="https://github.com/mat6rdxr293/sniperos"><b>repository →</b></a>
+
+</td>
+</tr>
+</table>
+
+---
+
+## Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,ts,js,java,react,nodejs,fastapi,postgres,redis,docker,linux,git,cmake,pytorch&perline=8" alt="stack" />
 </p>
 
-## Tools
+<table>
+<tr>
+<td width="25%" valign="top"><b>Systems</b><br/>C · C++<br/>Linux internals<br/>CMake<br/>OpenGL · Vulkan</td>
+<td width="25%" valign="top"><b>Backend</b><br/>Python · FastAPI<br/>Node.js<br/>PostgreSQL<br/>Redis · Docker</td>
+<td width="25%" valign="top"><b>Frontend</b><br/>TypeScript<br/>React<br/>Vite<br/>when the project needs it</td>
+<td width="25%" valign="top"><b>Hardware / ML</b><br/>ESP32<br/>electronics<br/>PyTorch<br/>transformers</td>
+</tr>
+</table>
 
-<p>
-  <img src="https://img.shields.io/badge/Docker-555555?style=flat&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-555555?style=flat&logo=linux&logoColor=white" alt="Linux" />
-  <img src="https://img.shields.io/badge/Git-555555?style=flat&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/CMake-555555?style=flat&logo=cmake&logoColor=white" alt="CMake" />
-  <img src="https://img.shields.io/badge/FastAPI-555555?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/PostgreSQL-555555?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-555555?style=flat&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/Node.js-555555?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/React-555555?style=flat&logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/PyTorch-555555?style=flat&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/ESP32-555555?style=flat&logo=espressif&logoColor=white" alt="ESP32" />
+---
+
+## Milestones
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 🥉 3rd
+**AIS Hackathon**
+
+</td>
+<td align="center" width="33%">
+
+### 🌍 Tashkent
+**InfoCheck · Goethe-Institut**  
+international hackathon
+
+</td>
+<td align="center" width="33%">
+
+### ~135M
+**parameters**  
+current LLM experiments
+
+</td>
+</tr>
+</table>
+
+Other things I spend time on: self-hosted Linux infrastructure, networking, cryptography, GPU internals and electronics.
+
+---
+
+## GitHub
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mat6rdxr293&show_icons=true&hide_border=true&bg_color=0d1117&title_color=c084fc&icon_color=a855f7&text_color=c9d1d9&ring_color=d946ef" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mat6rdxr293&layout=compact&hide_border=true&bg_color=0d1117&title_color=c084fc&text_color=c9d1d9&langs_count=8" alt="Top languages" />
 </p>
 
-## A few numbers
+<p align="center">
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=mat6rdxr293&bg_color=0d1117&color=c084fc&line=a855f7&point=f0abfc&area=true&hide_border=true" alt="Contribution graph" />
+</p>
 
-| AIS Hackathon | InfoCheck / Goethe-Institut | ML experiments |
-| --- | --- | --- |
-| **3rd place** | Tashkent · international hackathon | **~135M params** current model scale |
-
-I also run my own Linux servers and self-hosted infrastructure.
-
-[all repositories](https://github.com/mat6rdxr293?tab=repositories)
+<p align="center">
+  <sub>Most of the low-level work I'm doing right now is private until it stops changing every five minutes.</sub>
+</p>
