@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Matvey GitHub profile hero">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.58" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.55" stop-color="#a371f7"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1278" height="358" rx="24" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+  <rect x="32" y="32" width="1216" height="4" rx="2" fill="url(#line)" opacity="0.95"/>
+
+  <g opacity="0.13" stroke="#8b949e">
+    <path d="M0 90H1280M0 150H1280M0 210H1280M0 270H1280"/>
+    <path d="M90 0V360M210 0V360M330 0V360M450 0V360M570 0V360M690 0V360M810 0V360M930 0V360M1050 0V360M1170 0V360"/>
+  </g>
+
+  <circle cx="112" cy="102" r="34" fill="#58a6ff" opacity="0.11" filter="url(#glow)"/>
+  <circle cx="112" cy="102" r="7" fill="#58a6ff"/>
+  <text x="142" y="109" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">mat6rdxr293</text>
+
+  <text x="78" y="175" fill="#f0f6fc" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="700">Matvey</text>
+  <text x="78" y="213" fill="#58a6ff" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="600">I build lower in the stack.</text>
+  <text x="78" y="247" fill="#c9d1d9" font-family="Inter, Arial, sans-serif" font-size="19">OS internals · graphics · backend infrastructure · E2EE · embedded · ML</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600">
+    <rect x="78" y="284" width="116" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
+    <text x="98" y="306" fill="#58a6ff">MATRIXOS</text>
+    <rect x="208" y="284" width="157" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
+    <text x="228" y="306" fill="#a371f7">NVIDIA AMPERE</text>
+    <rect x="379" y="284" width="84" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
+    <text x="399" y="306" fill="#3fb950">E2EE</text>
+    <rect x="477" y="284" width="100" height="34" rx="17" fill="#161b22" stroke="#30363d"/>
+    <text x="497" y="306" fill="#f2cc60">PYTORCH</text>
+  </g>
+
+  <g transform="translate(770 72)">
+    <rect width="420" height="220" rx="18" fill="#0b0f14" stroke="#30363d" stroke-width="2"/>
+    <rect width="420" height="42" rx="18" fill="#161b22"/>
+    <rect y="24" width="420" height="18" fill="#161b22"/>
+    <circle cx="24" cy="21" r="6" fill="#ff7b72"/>
+    <circle cx="46" cy="21" r="6" fill="#f2cc60"/>
+    <circle cx="68" cy="21" r="6" fill="#3fb950"/>
+    <text x="95" y="27" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">~/current</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">
+      <text x="24" y="78" fill="#8b949e">$ focus</text>
+      <text x="24" y="108" fill="#f0f6fc">matrixos / graphics stack</text>
+      <text x="24" y="140" fill="#8b949e">gpu</text>
+      <text x="105" y="140" fill="#58a6ff">ampere bring-up</text>
+      <text x="24" y="170" fill="#8b949e">api</text>
+      <text x="105" y="170" fill="#a371f7">opengl · vulkan</text>
+      <text x="24" y="200" fill="#8b949e">target</text>
+      <text x="105" y="200" fill="#3fb950">real hardware</text>
+    </g>
+  </g>
+</svg>
