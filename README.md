@@ -22,20 +22,26 @@
 
 ### 🥉 AIS Hackathon — 3rd place
 
-Built and shipped a working project under hackathon constraints and finished **3rd**.
+Built a **medical AI voice assistant for DamuMed** as a Chrome extension.
 
-`3rd place` `hackathon` `product build`
+The assistant worked directly with the page DOM: it could find the right UI elements, navigate the interface, click buttons, insert text and help a doctor automate repetitive actions through voice / natural-language commands.
+
+`3rd place` `Chrome Extension` `Voice AI` `DOM automation` `DamuMed`
 
 </td>
 <td width="50%" valign="top">
 
-### 🌍 InfoCheck · Goethe-Institut — Tashkent
+### 🌍 InfoCheck Central Asia · Goethe-Institut
 
-Participant in the **international InfoCheck hackathon by Goethe-Institut in Tashkent**.
+**Tashkent, Uzbekistan · 12–14 June 2026**
 
-The project became **MatrixEducation** — a school platform with role-based access, analytics, scheduling, BilimClass integration and an AI fallback chain.
+For the **selection round**, I submitted **MatrixEducation**, a school platform with role-based access, analytics, scheduling, BilimClass integration and AI features.
 
-<a href="https://github.com/mat6rdxr293/MatrixHackathon-goethe"><b>hackathon project →</b></a>
+At the actual onsite hackathon I worked with **Team Besh Tamga** on **Besh Tamga** — a 2D/2.5D media-literacy adventure game about misinformation, evidence and source verification.
+
+`Unity 6.3 LTS` `URP` `C#` `2D / 2.5D` `media literacy`
+
+<a href="https://github.com/mat6rdxr293/MatrixHackathon-goethe"><b>selection-round project →</b></a>
 
 </td>
 </tr>
@@ -43,8 +49,8 @@ The project became **MatrixEducation** — a school platform with role-based acc
 
 <p align="center">
   <img src="https://img.shields.io/badge/AIS_Hackathon-3rd_place-d946ef?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/InfoCheck-Goethe--Institut-7c3aed?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Tashkent-international_hackathon-6366f1?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/InfoCheck-Tashkent-7c3aed?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Besh_Tamga-Unity_6.3-6366f1?style=for-the-badge&logo=unity&logoColor=white" />
 </p>
 
 ---
@@ -112,7 +118,7 @@ ESP32 projects, control electronics, Bluetooth, sensors, PCB experiments and sol
 
 ### [MatrixEducation](https://github.com/mat6rdxr293/MatrixHackathon-goethe)
 
-School platform built for a hackathon: role-based accounts, analytics, scheduling, achievements, notifications, BilimClass integration and an AI fallback chain.
+My **InfoCheck selection-round submission**: a school platform with role-based accounts, analytics, scheduling, achievements, notifications, BilimClass integration and an AI fallback chain.
 
 `React` `TypeScript` `Node.js` `Express`
 
@@ -158,14 +164,14 @@ An older OS-related repository from before MatrixOS. Keeping it public as part o
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,ts,js,java,react,nodejs,fastapi,postgres,redis,docker,linux,git,cmake,pytorch&perline=8" alt="stack" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,cs,python,ts,js,java,unity,react,nodejs,fastapi,postgres,redis,docker,linux,git,cmake,pytorch&perline=9" alt="stack" />
 </p>
 
 <table>
 <tr>
 <td width="25%" valign="top"><b>Systems</b><br/>C · C++<br/>Linux internals<br/>CMake<br/>OpenGL · Vulkan</td>
 <td width="25%" valign="top"><b>Backend</b><br/>Python · FastAPI<br/>Node.js<br/>PostgreSQL<br/>Redis · Docker</td>
-<td width="25%" valign="top"><b>Frontend</b><br/>TypeScript<br/>React<br/>Vite<br/>when the project needs it</td>
+<td width="25%" valign="top"><b>Game / frontend</b><br/>C# · Unity<br/>TypeScript<br/>React · Vite</td>
 <td width="25%" valign="top"><b>Hardware / ML</b><br/>ESP32<br/>electronics<br/>PyTorch<br/>transformers</td>
 </tr>
 </table>
