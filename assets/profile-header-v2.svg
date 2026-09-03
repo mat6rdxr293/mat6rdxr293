@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
-  <title id="title">mat6rdxr293 — systems, graphics, backend</title>
+  <title id="title">mat6rdxr293 - systems, graphics, backend</title>
   <desc id="desc">Purple developer profile header with a terminal panel</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
@@ -32,9 +32,9 @@
 
   <text x="72" y="70" fill="#a78bfa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">github.com/mat6rdxr293</text>
   <text x="70" y="137" fill="#f5f3ff" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="52" font-weight="760">mat6rdxr293</text>
-  <text x="72" y="174" fill="#ddd6fe" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19">systems · graphics · backend · embedded · ML</text>
+  <text x="72" y="174" fill="#ddd6fe" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19">systems / graphics / backend / embedded / ML</text>
   <text x="72" y="225" fill="#ede9fe" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15">&gt; building MatrixOS</text>
-  <text x="72" y="253" fill="#c4b5fd" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15">&gt; GPU bring-up · E2EE · infra · hardware</text>
+  <text x="72" y="253" fill="#c4b5fd" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15">&gt; GPU bring-up / E2EE / infra / hardware</text>
   <text x="72" y="281" fill="#f0abfc" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15">&gt; Kazakhstan</text>
 
   <g transform="translate(678 48)">
@@ -50,7 +50,7 @@
     <text x="22" y="105" fill="#f5f3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">MatrixOS/   MatrixMessenger/   ML/</text>
 
     <text x="22" y="140" fill="#a78bfa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">$ cat stack</text>
-    <text x="22" y="167" fill="#f5f3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">C · C++ · Python · TypeScript</text>
+    <text x="22" y="167" fill="#f5f3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">C / C++ / Python / TypeScript</text>
 
     <text x="22" y="202" fill="#a78bfa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">$ status</text>
     <text x="91" y="202" fill="#f0abfc" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">building</text>
