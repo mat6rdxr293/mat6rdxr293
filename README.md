@@ -140,22 +140,13 @@ A school-platform prototype with dashboards, academic analytics, smart schedulin
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" width="100%" valign="top">
 
 ### [hackathon-offline](https://github.com/mat6rdxr293/hackathon-offline)
 
 One of my public hackathon builds.
 
 <a href="https://github.com/mat6rdxr293/hackathon-offline"><b>repository</b></a>
-
-</td>
-<td width="50%" valign="top">
-
-### [sniperos](https://github.com/mat6rdxr293/sniperos)
-
-An older OS-related repository from before MatrixOS.
-
-<a href="https://github.com/mat6rdxr293/sniperos"><b>repository</b></a>
 
 </td>
 </tr>
