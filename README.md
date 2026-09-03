@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header-v2.svg" width="100%" alt="mat6rdxr293 — systems, graphics and backend" />
+  <img src="./assets/profile-header-v2.svg" width="100%" alt="mat6rdxr293 - systems, graphics and backend" />
 </p>
 
 <p align="center">
@@ -20,37 +20,39 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🥉 AIS Hackathon — 3rd place
+### AIS Hackathon - 3rd place
 
-Built a **medical AI voice assistant for DamuMed** as a Chrome extension.
+Republican-level hackathon in Kazakhstan, with participants from across the country.
 
-The assistant worked directly with the page DOM: it could find the right UI elements, navigate the interface, click buttons, insert text and help a doctor automate repetitive actions through voice / natural-language commands.
+We built a medical AI voice assistant for DamuMed as a Chrome extension.
 
-`3rd place` `Chrome Extension` `Voice AI` `DOM automation` `DamuMed`
+The assistant worked directly with the page DOM. It could find interface elements, navigate the page, click buttons, insert text and help a doctor automate repetitive actions through voice or natural-language commands.
+
+`3rd place` `Republican level` `Kazakhstan` `Chrome Extension` `Voice AI` `DOM automation` `DamuMed`
 
 </td>
 <td width="50%" valign="top">
 
-### 🌍 InfoCheck Central Asia · Goethe-Institut
+### InfoCheck Central Asia - Goethe-Institut
 
-**Tashkent, Uzbekistan · 12–14 June 2026**
+**Tashkent, Uzbekistan - 12-14 June 2026**
 
-For the **selection round**, I submitted **MatrixEducation**, a school platform with role-based access, analytics, scheduling, BilimClass integration and AI features.
+For the selection round, I submitted **MatrixEducation**, a school platform with role-based access, analytics, scheduling, BilimClass integration and AI features.
 
-At the actual onsite hackathon I worked with **Team Besh Tamga** on **Besh Tamga** — a 2D/2.5D media-literacy adventure game about misinformation, evidence and source verification.
+At the onsite hackathon I worked with **Team BeshTamga** on **Besh Tamga**, a 2D/2.5D media-literacy adventure game about misinformation, evidence and source verification.
 
 `Unity 6.3 LTS` `URP` `C#` `2D / 2.5D` `media literacy`
 
-<a href="https://github.com/mat6rdxr293/MatrixHackathon-goethe"><b>selection-round project →</b></a>
+<a href="https://github.com/mat6rdxr293/MatrixHackathon-goethe"><b>selection-round project</b></a>
 
 </td>
 </tr>
 </table>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AIS_Hackathon-3rd_place-d946ef?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AIS_Hackathon-Republican_level_3rd_place-d946ef?style=for-the-badge" />
   <img src="https://img.shields.io/badge/InfoCheck-Tashkent-7c3aed?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Besh_Tamga-Unity_6.3-6366f1?style=for-the-badge&logo=unity&logoColor=white" />
+  <img src="https://img.shields.io/badge/BeshTamga-Unity_6.3-6366f1?style=for-the-badge&logo=unity&logoColor=white" />
 </p>
 
 ---
@@ -63,19 +65,19 @@ At the actual onsite hackathon I worked with **Team Besh Tamga** on **Besh Tamga
 
 ### `01` MatrixOS
 
-An operating system I'm building from scratch. The current bottleneck is graphics and hardware support, so most of the work is around GPU bring-up rather than polishing a desktop shell.
+An operating system I'm building from scratch. Current work is mostly graphics and hardware support, especially GPU bring-up on real hardware.
 
 `C` `C++` `NVIDIA Ampere` `OpenGL` `Vulkan` `USB/HID`
 
 **now:** graphics stack + real hardware  
-**repo:** private while the low-level parts are moving fast
+**repo:** private while the low-level parts are still changing quickly
 
 </td>
 <td width="50%" valign="top">
 
 ### `02` MatrixMessenger
 
-Messenger with my own E2EE implementation. The interesting part is the protocol: key exchange, ratcheting and keeping the backend out of the plaintext path.
+Messenger with my own E2EE implementation. The main focus is the protocol: key exchange, ratcheting and keeping the backend out of the plaintext path.
 
 `Python` `FastAPI` `X25519` `Double Ratchet` `SQLAlchemy`
 
@@ -118,22 +120,22 @@ ESP32 projects, control electronics, Bluetooth, sensors, PCB experiments and sol
 
 ### [MatrixEducation](https://github.com/mat6rdxr293/MatrixHackathon-goethe)
 
-My **InfoCheck selection-round submission**: a school platform with role-based accounts, analytics, scheduling, achievements, notifications, BilimClass integration and an AI fallback chain.
+My InfoCheck selection-round submission: a school platform with role-based accounts, analytics, scheduling, achievements, notifications, BilimClass integration and an AI fallback chain.
 
 `React` `TypeScript` `Node.js` `Express`
 
-<a href="https://github.com/mat6rdxr293/MatrixHackathon-goethe"><b>repository →</b></a>
+<a href="https://github.com/mat6rdxr293/MatrixHackathon-goethe"><b>repository</b></a>
 
 </td>
 <td width="50%" valign="top">
 
 ### [Aqbobek Lyceum Portal](https://github.com/mat6rdxr293/AqbobekHachathonMatrixAI)
 
-Another school-platform prototype with dashboards, academic analytics, smart scheduling, AI features and kiosk mode.
+A school-platform prototype with dashboards, academic analytics, smart scheduling, AI features and kiosk mode.
 
 `React` `TypeScript` `Node.js` `Express`
 
-<a href="https://github.com/mat6rdxr293/AqbobekHachathonMatrixAI"><b>repository →</b></a>
+<a href="https://github.com/mat6rdxr293/AqbobekHachathonMatrixAI"><b>repository</b></a>
 
 </td>
 </tr>
@@ -142,18 +144,18 @@ Another school-platform prototype with dashboards, academic analytics, smart sch
 
 ### [hackathon-offline](https://github.com/mat6rdxr293/hackathon-offline)
 
-One of my public hackathon builds. I use hackathons mostly as an excuse to ship something complete under a hard deadline.
+One of my public hackathon builds.
 
-<a href="https://github.com/mat6rdxr293/hackathon-offline"><b>repository →</b></a>
+<a href="https://github.com/mat6rdxr293/hackathon-offline"><b>repository</b></a>
 
 </td>
 <td width="50%" valign="top">
 
 ### [sniperos](https://github.com/mat6rdxr293/sniperos)
 
-An older OS-related repository from before MatrixOS. Keeping it public as part of the path that got me deeper into low-level development.
+An older OS-related repository from before MatrixOS.
 
-<a href="https://github.com/mat6rdxr293/sniperos"><b>repository →</b></a>
+<a href="https://github.com/mat6rdxr293/sniperos"><b>repository</b></a>
 
 </td>
 </tr>
@@ -169,9 +171,9 @@ An older OS-related repository from before MatrixOS. Keeping it public as part o
 
 <table>
 <tr>
-<td width="25%" valign="top"><b>Systems</b><br/>C · C++<br/>Linux internals<br/>CMake<br/>OpenGL · Vulkan</td>
-<td width="25%" valign="top"><b>Backend</b><br/>Python · FastAPI<br/>Node.js<br/>PostgreSQL<br/>Redis · Docker</td>
-<td width="25%" valign="top"><b>Game / frontend</b><br/>C# · Unity<br/>TypeScript<br/>React · Vite</td>
+<td width="25%" valign="top"><b>Systems</b><br/>C / C++<br/>Linux internals<br/>CMake<br/>OpenGL / Vulkan</td>
+<td width="25%" valign="top"><b>Backend</b><br/>Python / FastAPI<br/>Node.js<br/>PostgreSQL<br/>Redis / Docker</td>
+<td width="25%" valign="top"><b>Game / frontend</b><br/>C# / Unity<br/>TypeScript<br/>React / Vite</td>
 <td width="25%" valign="top"><b>Hardware / ML</b><br/>ESP32<br/>electronics<br/>PyTorch<br/>transformers</td>
 </tr>
 </table>
@@ -193,7 +195,7 @@ current LLM experiments
 
 ### self-hosted
 **Linux infrastructure**  
-servers · networking · services
+servers / networking / services
 
 </td>
 </tr>
@@ -215,5 +217,5 @@ Other things I spend time on: networking, cryptography, GPU internals and electr
 </p>
 
 <p align="center">
-  <sub>Most of the low-level work I'm doing right now is private until it stops changing every five minutes.</sub>
+  <sub>Most of my current low-level work stays private while it is still changing quickly.</sub>
 </p>
